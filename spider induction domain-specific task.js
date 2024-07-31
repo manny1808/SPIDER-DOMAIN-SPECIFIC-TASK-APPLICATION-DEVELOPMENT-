@@ -748,6 +748,36 @@ for(let i = 0; i < 7; i++)
             recipes.appendChild(p12)
             recipes.appendChild(p13)
 
+            let ah1 = document.createElement('h3')
+            ah1.appendChild(document.createTextNode('VOICE OVER THE PROCEEDURE?'))
+            recipes.appendChild(ah1)
+
+            let af1 = document.createElement('audio')
+            af1.src = "Lemon Garlic Rosemary Chicken.wav"
+            recipes.appendChild(af1)
+
+            let play1 = document.createElement('button')
+            recipes.appendChild(play1)
+            play1.classList.add('audio_button1')
+            play1.textContent = 'PLAY'
+    
+            play1.addEventListener('click', ()=>{
+
+                af1.play()
+
+            })
+
+            let pause1 = document.createElement('button')
+            recipes.appendChild(pause1)
+            pause1.classList.add('audio_button2')
+            pause1.textContent = 'PAUSE'
+
+            pause1.addEventListener('click', ()=>{
+
+                af1.pause()
+
+            })
+
             let h13 = document.createElement('h3')
             h13.appendChild(document.createTextNode('INGREDIENTS:'))
             recipes.appendChild(h13)
@@ -846,6 +876,36 @@ for(let i = 0; i < 7; i++)
             recipes.appendChild(p24)
             recipes.appendChild(p25)
 
+            let ah2 = document.createElement('h3')
+            ah2.appendChild(document.createTextNode('VOICE OVER THE PROCEEDURE?'))
+            recipes.appendChild(ah2)
+
+            let af2 = document.createElement('audio')
+            af2.src = "Garlic Rosemary Lemon Chicken Skewers.wav"
+            recipes.appendChild(af2)
+
+            let play2 = document.createElement('button')
+            recipes.appendChild(play2)
+            play2.classList.add('audio_button1')
+            play2.textContent = 'PLAY'
+    
+            play2.addEventListener('click', ()=>{
+
+                af2.play()
+
+            })
+
+            let pause2 = document.createElement('button')
+            recipes.appendChild(pause2)
+            pause2.classList.add('audio_button2')
+            pause2.textContent = 'PAUSE'
+
+            pause2.addEventListener('click', ()=>{
+
+                af2.pause()
+
+            })
+
             let h23 = document.createElement('h3')
             h23.appendChild(document.createTextNode('INGREDIENTS:'))
             recipes.appendChild(h23)
@@ -941,6 +1001,36 @@ for(let i = 0; i < 7; i++)
             recipes.appendChild(p32)
             recipes.appendChild(p33)
             recipes.appendChild(p34)
+
+            let ah3 = document.createElement('h3')
+            ah3.appendChild(document.createTextNode('VOICE OVER THE PROCEEDURE?'))
+            recipes.appendChild(ah3)
+
+            let af3 = document.createElement('audio')
+            af3.src = "Chicken Pasta.wav"
+            recipes.appendChild(af3)
+
+            let play3 = document.createElement('button')
+            recipes.appendChild(play3)
+            play3.classList.add('audio_button1')
+            play3.textContent = 'PLAY'
+    
+            play3.addEventListener('click', ()=>{
+
+                af3.play()
+
+            })
+
+            let pause3 = document.createElement('button')
+            recipes.appendChild(pause3)
+            pause3.classList.add('audio_button2')
+            pause3.textContent = 'PAUSE'
+
+            pause3.addEventListener('click', ()=>{
+
+                af3.pause()
+
+            })
 
             let h33 = document.createElement('h3')
             h33.appendChild(document.createTextNode('INGREDIENTS:'))
@@ -1040,6 +1130,36 @@ for(let i = 0; i < 7; i++)
             recipes.appendChild(p44)
             recipes.appendChild(p45)
 
+            let ah4 = document.createElement('h3')
+            ah4.appendChild(document.createTextNode('VOICE OVER THE PROCEEDURE?'))
+            recipes.appendChild(ah4)
+
+            let af4 = document.createElement('audio')
+            af4.src = "Spinach and Feta Omelette.wav"
+            recipes.appendChild(af4)
+
+            let play4 = document.createElement('button')
+            recipes.appendChild(play4)
+            play4.classList.add('audio_button1')
+            play4.textContent = 'PLAY'
+    
+            play4.addEventListener('click', ()=>{
+
+                af4.play()
+
+            })
+
+            let pause4 = document.createElement('button')
+            recipes.appendChild(pause4)
+            pause4.classList.add('audio_button2')
+            pause4.textContent = 'PAUSE'
+
+            pause4.addEventListener('click', ()=>{
+
+                af4.pause()
+
+            })
+
             let h43 = document.createElement('h3')
             h43.appendChild(document.createTextNode('INGREDIENTS:'))
             recipes.appendChild(h43)
@@ -1132,6 +1252,36 @@ for(let i = 0; i < 7; i++)
             recipes.appendChild(p51)
             recipes.appendChild(p52)
             recipes.appendChild(p53)
+
+            let ah5 = document.createElement('h3')
+            ah5.appendChild(document.createTextNode('VOICE OVER THE PROCEEDURE?'))
+            recipes.appendChild(ah5)
+
+            let af5 = document.createElement('audio')
+            af5.src = "Mediterranean Spinach Salad.wav"
+            recipes.appendChild(af5)
+
+            let play5 = document.createElement('button')
+            recipes.appendChild(play5)
+            play5.classList.add('audio_button1')
+            play5.textContent = 'PLAY'
+    
+            play5.addEventListener('click', ()=>{
+
+                af5.play()
+
+            })
+
+            let pause5 = document.createElement('button')
+            recipes.appendChild(pause5)
+            pause5.classList.add('audio_button2')
+            pause5.textContent = 'PAUSE'
+
+            pause5.addEventListener('click', ()=>{
+
+                af5.pause()
+
+            })
             
             let h53 = document.createElement('h3')
             h53.appendChild(document.createTextNode('INGREDIENTS:'))
@@ -1233,6 +1383,36 @@ for(let i = 0; i < 7; i++)
             recipes.appendChild(p64)
             recipes.appendChild(p65)
             recipes.appendChild(p66)
+
+            let ah6 = document.createElement('h3')
+            ah6.appendChild(document.createTextNode('VOICE OVER THE PROCEEDURE?'))
+            recipes.appendChild(ah6)
+
+            let af6 = document.createElement('audio')
+            af6.src = "Spinach Feta Stuffed Tomatoes.wav"
+            recipes.appendChild(af6)
+
+            let play6 = document.createElement('button')
+            recipes.appendChild(play6)
+            play6.classList.add('audio_button1')
+            play6.textContent = 'PLAY'
+    
+            play6.addEventListener('click', ()=>{
+
+                af6.play()
+
+            })
+
+            let pause6 = document.createElement('button')
+            recipes.appendChild(pause6)
+            pause6.classList.add('audio_button2')
+            pause6.textContent = 'PAUSE'
+
+            pause6.addEventListener('click', ()=>{
+
+                af6.pause()
+
+            })
             
             let h63 = document.createElement('h3')
             h63.appendChild(document.createTextNode('INGREDIENTS:'))
@@ -1332,6 +1512,36 @@ for(let i = 0; i < 7; i++)
             recipes.appendChild(p73)
             recipes.appendChild(p74)
             recipes.appendChild(p75)
+
+            let ah7 = document.createElement('h3')
+            ah7.appendChild(document.createTextNode('VOICE OVER THE PROCEEDURE?'))
+            recipes.appendChild(ah7)
+
+            let af7 = document.createElement('audio')
+            af7.src = "Beef Chili.wav"
+            recipes.appendChild(af7)
+
+            let play7 = document.createElement('button')
+            recipes.appendChild(play7)
+            play7.classList.add('audio_button1')
+            play7.textContent = 'PLAY'
+    
+            play7.addEventListener('click', ()=>{
+
+                af7.play()
+
+            })
+
+            let pause7 = document.createElement('button')
+            recipes.appendChild(pause7)
+            pause7.classList.add('audio_button2')
+            pause7.textContent = 'PAUSE'
+
+            pause7.addEventListener('click', ()=>{
+
+                af7.pause()
+
+            })
             
             let h73 = document.createElement('h3')
             h73.appendChild(document.createTextNode('INGREDIENTS:'))
@@ -1433,6 +1643,36 @@ for(let i = 0; i < 7; i++)
             recipes.appendChild(p84)
             recipes.appendChild(p85)
             recipes.appendChild(p86)
+
+            let ah8 = document.createElement('h3')
+            ah8.appendChild(document.createTextNode('VOICE OVER THE PROCEEDURE?'))
+            recipes.appendChild(ah8)
+
+            let af8 = document.createElement('audio')
+            af8.src = "Stuffed Bell Peppers.wav"
+            recipes.appendChild(af8)
+
+            let play8 = document.createElement('button')
+            recipes.appendChild(play8)
+            play8.classList.add('audio_button1')
+            play8.textContent = 'PLAY'
+    
+            play8.addEventListener('click', ()=>{
+
+                af8.play()
+
+            })
+
+            let pause8 = document.createElement('button')
+            recipes.appendChild(pause8)
+            pause8.classList.add('audio_button2')
+            pause8.textContent = 'PAUSE'
+
+            pause8.addEventListener('click', ()=>{
+
+                af8.pause()
+
+            })
             
             let h83 = document.createElement('h3')
             h83.appendChild(document.createTextNode('INGREDIENTS:'))
@@ -1468,8 +1708,6 @@ for(let i = 0; i < 7; i++)
                         save_user = JSON.parse(localStorage.getItem('save_recipe'))
 
                         save_user[j].r8 = {...recipe.r8}
-
-                        console.log(save_user)
 
                         localStorage.setItem('save_recipe',JSON.stringify(save_user))
 
@@ -1532,6 +1770,36 @@ for(let i = 0; i < 7; i++)
             recipes.appendChild(p93)
             recipes.appendChild(p94)
             recipes.appendChild(p95)
+
+            let ah9 = document.createElement('h3')
+            ah9.appendChild(document.createTextNode('VOICE OVER THE PROCEEDURE?'))
+            recipes.appendChild(ah9)
+
+            let af9 = document.createElement('audio')
+            af9.src = "Beef and Tomato Skillet.wav"
+            recipes.appendChild(af9)
+
+            let play9 = document.createElement('button')
+            recipes.appendChild(play9)
+            play9.classList.add('audio_button1')
+            play9.textContent = 'PLAY'
+    
+            play9.addEventListener('click', ()=>{
+
+                af9.play()
+
+            })
+
+            let pause9 = document.createElement('button')
+            recipes.appendChild(pause9)
+            pause9.classList.add('audio_button2')
+            pause9.textContent = 'PAUSE'
+
+            pause9.addEventListener('click', ()=>{
+
+                af9.pause()
+
+            })
             
             let h93 = document.createElement('h3')
             h93.appendChild(document.createTextNode('INGREDIENTS:'))
@@ -1567,8 +1835,6 @@ for(let i = 0; i < 7; i++)
                         save_user = JSON.parse(localStorage.getItem('save_recipe'))
 
                         save_user[j].r9 = {...recipe.r9}
-
-                        console.log(save_user)
 
                         localStorage.setItem('save_recipe',JSON.stringify(save_user))
 
